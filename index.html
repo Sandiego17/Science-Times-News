@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Science Times</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body class="body" onload="loading()">
+    <div class="news-outlet position-relative p-0 m-0">
+        <div class="position-absolute top-50 start-50 translate-middle p-0 m-0"><h1 class="text-white">The Science Times</h1></div>
+    </div>
+
+    <nav class="nav-bar d-flex py-2 mb-2">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Politics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Entertainment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Business</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Sports</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Tech</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Health</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Editorial</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Metro</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Other News</a>
+            </li>
+        </ul>
+        <div class="search-wrapper py-1 ps-lg-5 ps-md-0">
+            <div class="input">
+                <input type="text" name="searchText" class="value" placeholder="Search">
+            </div> 
+            <div class="button">
+                <button type="button" class="btn btn-primary btn-sm" id="filter-btn">by Author</button>
+            </div>
+        </div>
+    </nav>
+    <!-- <button id="fetch-btn">Fetch News</button> -->
+
+    <section class="col">
+        <div class="section-wrapper" id="main-wrapper"></div>
+    </section>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-lg-6 col-md-4 mb-0 text-white">&copy; 2022. SCIENCE TIMES of NIGERIA Plc. All Rights Reserved.</p>
+      
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="fot-item"><a href="#" class="fot-link px-2 text-white">ABOUT</a></li>
+                <li class="fot-item"><a href="#" class="fot-link px-2 text-white">TERMS OF USE</a></li>
+                <li class="fot-item"><a href="#" class="fot-link px-2 text-white">CONTACT</a></li>
+                <li class="fot-item"><a href="#" class="fot-link px-2 text-white">ADVERTIZE</a></li>
+            </ul>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>
